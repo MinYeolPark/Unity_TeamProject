@@ -99,16 +99,16 @@ public class ColD : MonoBehaviour
             agent.SetDestination(PlayerDest);
             agent.stoppingDistance = 0;
 
-            //// Rotation
-            //if (!onSkill)
-            //{
-            //    Quaternion rotationToLookAt = Quaternion.LookRotation(PlayerDest - transform.position);
-            //    float rotationY = Mathf.SmoothDampAngle(transform.eulerAngles.y,
-            //        rotationToLookAt.eulerAngles.y,
-            //        ref rotateVelocity,
-            //        rotateSpeedMovement * (Time.deltaTime * 5));
-            //    transform.eulerAngles = new Vector3(0, rotationY, 0);
-            //}
+            // Rotation
+            if (!onSkill)
+            {
+                Quaternion rotationToLookAt = Quaternion.LookRotation(PlayerDest - transform.position);
+                float rotationY = Mathf.SmoothDampAngle(transform.eulerAngles.y,
+                    rotationToLookAt.eulerAngles.y,
+                    ref rotateVelocity,
+                    rotateSpeedMovement * (Time.deltaTime * 5));
+                transform.eulerAngles = new Vector3(0, rotationY, 0);
+            }
             //LinePath
             if (path != null && path.Length > 1)
             {

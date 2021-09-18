@@ -99,13 +99,12 @@ public class ColD_W : MonoBehaviour
 
         if(Input.GetKeyDown(KeyCode.R))
         {
-            mouseVector = GetMousePos(); //화살 방향 마우스방향에 미리 이동
+            Direction.transform.position = GetMousePos(); //화살 방향 마우스방향에 미리 이동
             Direction.SetActive(true); //방향화살 active
             //화살표 위치 고정
         }
         if (Input.GetKey(KeyCode.R))
         {
-            Direction.transform.position = mouseVector;
             Range.SetActive(true);
             GetRdirect(); //get R_DirecAngle
             Direction.transform.rotation = 
@@ -190,6 +189,7 @@ public class ColD_W : MonoBehaviour
           Direction.transform.rotation); //유탄발사
 
             yield return new WaitForSeconds(4.5f);
+            Destroy(missile_target_effect);
             break;
         }
     }
