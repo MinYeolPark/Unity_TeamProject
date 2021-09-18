@@ -9791,9 +9791,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2791168676241168834}
-  - component: {fileID: 2791168676241168845}
   - component: {fileID: 6119168582020921512}
   - component: {fileID: 3313072097176706953}
+  - component: {fileID: -9033856211128434705}
   m_Layer: 0
   m_Name: Xerion_Drone_Skill
   m_TagString: Untagged
@@ -9819,23 +9819,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2791168676241168845
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2791168676241168844}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 90504fe86e05b3547866f636547372cc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  FXToDeatch: {fileID: 4622778349050788214}
-  Speed: 15
-  ImpactFX: {fileID: 0}
-  ImpactFXDestroyDelay: 2
-  ImpactOffset: 0
 --- !u!54 &6119168582020921512
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9844,10 +9827,10 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2791168676241168844}
   serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
+  m_Mass: 100
+  m_Drag: 1
+  m_AngularDrag: 10
+  m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -9865,6 +9848,25 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-9033856211128434705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2791168676241168844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c0dba7f2ba1c1479732210976d9335, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FXToDeatch: {fileID: 4622778349050788214}
+  Speed: 15
+  ImpactFX: {fileID: 0}
+  ImpactFXDestroyDelay: 2
+  ImpactOffset: 0.15
+  gravity: -20
+  height: 1
 --- !u!1 &4162063902139371180
 GameObject:
   m_ObjectHideFlags: 0
