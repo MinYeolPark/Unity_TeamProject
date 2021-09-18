@@ -42,7 +42,7 @@ public class MainCamera_InputTargeting : MonoBehaviour
                 else if (hit.collider.gameObject.GetComponent<Targetable>() == null)
                 {
                     //Debug.Log("다른거 클릭");
-                    selectedHero.GetComponent<Player_Combat>().targetedEnemy = null;
+                   // selectedHero.GetComponent<Player_Combat>().targetedEnemy = null;
                 }
             }
         }
