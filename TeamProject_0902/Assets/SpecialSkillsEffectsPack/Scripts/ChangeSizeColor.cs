@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class ChangeSizeColor : MonoBehaviour {
 
-    public Gradient color;
+    public UnityEngine.Gradient color;
     public Color m_changeColor;
     //[HideInInspector]
     public GameObject m_obj;

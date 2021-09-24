@@ -11,19 +11,19 @@ C:\Program Files\2021.1.11f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/unityBackup/Unity_TeamProject-main/TeamProject_0902
+D:/Unity_TeamProject/TeamProject_0902
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-10696
-Successfully changed project path to: D:/unityBackup/Unity_TeamProject-main/TeamProject_0902
-D:/unityBackup/Unity_TeamProject-main/TeamProject_0902
+13118
+Successfully changed project path to: D:/Unity_TeamProject/TeamProject_0902
+D:/Unity_TeamProject/TeamProject_0902
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 88.96 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 89.29 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.11f1 (4d8c25f7477e)
 [Subsystems] Discovering subsystems at path C:/Program Files/2021.1.11f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/unityBackup/Unity_TeamProject-main/TeamProject_0902/Assets
+[Subsystems] Discovering subsystems at path D:/Unity_TeamProject/TeamProject_0902/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -35,91 +35,91 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/2021.1.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/2021.1.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/2021.1.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56828
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56248
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/2021.1.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001087 seconds.
+Registered in 0.001175 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 93.18 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 93.97 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.788 seconds
+- Completed reload, in  0.797 seconds
 Domain Reload Profiling:
-	ReloadAssembly (788ms)
+	ReloadAssembly (797ms)
 		BeginReloadAssembly (34ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (344ms)
+		EndReloadAssembly (353ms)
 			LoadAssemblies (33ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (105ms)
+			SetupTypeCache (108ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (19ms)
-			SetupLoadedEditorAssemblies (188ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (193ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (93ms)
+				RefreshPlugins (94ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (69ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
+				ProcessInitializeOnLoadAttributes (72ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003324 seconds.
+Registered in 0.003163 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\unityBackup\Unity_TeamProject-main\TeamProject_0902\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\unityBackup\Unity_TeamProject-main\TeamProject_0902\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity_TeamProject\TeamProject_0902\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity_TeamProject\TeamProject_0902\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.914 seconds
+- Completed reload, in  2.128 seconds
 Domain Reload Profiling:
-	ReloadAssembly (914ms)
-		BeginReloadAssembly (96ms)
+	ReloadAssembly (2129ms)
+		BeginReloadAssembly (94ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (778ms)
-			LoadAssemblies (60ms)
+			CreateAndSetChildDomain (13ms)
+		EndReloadAssembly (1994ms)
+			LoadAssemblies (1251ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (239ms)
+			SetupTypeCache (230ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (379ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (410ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (51ms)
-				ProcessInitializeOnLoadAttributes (316ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
+				ProcessInitializeOnLoadAttributes (347ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3691 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 227.3 MB.
-System memory in use after: 227.5 MB.
+Unloading 3692 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 227.9 MB.
+System memory in use after: 228.1 MB.
 
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 4135.
-Total: 2.092500 ms (FindLiveObjects: 0.197700 ms CreateObjectMapping: 0.091700 ms MarkObjects: 1.712000 ms  DeleteObjects: 0.089900 ms)
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 4140.
+Total: 2.043200 ms (FindLiveObjects: 0.190100 ms CreateObjectMapping: 0.093500 ms MarkObjects: 1.653500 ms  DeleteObjects: 0.105300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -133,62 +133,92 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/YC
-  artifactKey: Guid(69b3534216361c34c8ba9843a6d2f838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/YC using Guid(69b3534216361c34c8ba9843a6d2f838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd56317279004b4a185e3707fa255700') in 0.008120 seconds 
+  path: Assets/Scenes/MainScene_copy.unity
+  artifactKey: Guid(57f5191d51f1eb5498ac6e8a27019ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene_copy.unity using Guid(57f5191d51f1eb5498ac6e8a27019ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5870fb893b6e4c5bf2ab5e1041c71a93') in 0.016504 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000341 seconds.
-  path: Assets/Scripts/YC/Xerion
-  artifactKey: Guid(a6a8fdf09b13319409ae3ac70599607d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/YC/Xerion using Guid(a6a8fdf09b13319409ae3ac70599607d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '302fdfca5ded95a5f9cd2ac9c06ccc16') in 0.006435 seconds 
+  Time since last request: 28.743263 seconds.
+  path: Assets/Characters/Wefewolf/Models
+  artifactKey: Guid(a023ff23cf44a894b9af729f5fbebf8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Wefewolf/Models using Guid(a023ff23cf44a894b9af729f5fbebf8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd91e597c5637e20a7fa57172583f92bf') in 0.005753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.143266 seconds.
+  path: Assets/Characters/Wefewolf/Models/WereWolf Gen Rig.fbx
+  artifactKey: Guid(875c6db1dd116f64f85a3233a0b3f1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Wefewolf/Models/WereWolf Gen Rig.fbx using Guid(875c6db1dd116f64f85a3233a0b3f1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea47cb8e159cc2f8816fd34c36d70c5e') in 0.419590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.334289 seconds.
+  path: Assets/Characters/Wefewolf/Models/WereWolf Hum Rig 1.fbx
+  artifactKey: Guid(6d217ffae63939048ae6359a2ac9c61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Wefewolf/Models/WereWolf Hum Rig 1.fbx using Guid(6d217ffae63939048ae6359a2ac9c61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c46dc42b01d30c2b562de25528bccb') in 0.160475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.946575 seconds.
+  path: Assets/Characters/Wefewolf/Prefabs/WereWolf Hum Rig Wild.prefab
+  artifactKey: Guid(899903f32e45bcc4ba4dfdc8609d48f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Wefewolf/Prefabs/WereWolf Hum Rig Wild.prefab using Guid(899903f32e45bcc4ba4dfdc8609d48f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2c59525b1fd33a04a2988b0c8102ee9') in 0.520330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.184056 seconds.
+  path: Assets/Characters/Wefewolf/Prefabs/WereWolf Hum Rig Lightly Armored.prefab
+  artifactKey: Guid(3d448d68e4d28bd488893d3dd00e951f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Wefewolf/Prefabs/WereWolf Hum Rig Lightly Armored.prefab using Guid(3d448d68e4d28bd488893d3dd00e951f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9212f34f61e30c6d3d25731fe3b62b5d') in 1.027986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Characters/Wefewolf/Prefabs/WereWolf Hum Rig Damaged.prefab
+  artifactKey: Guid(84140f41a642586459121bd395238225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Wefewolf/Prefabs/WereWolf Hum Rig Damaged.prefab using Guid(84140f41a642586459121bd395238225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa3d934a0aa5b15864ba59ea5c89eaa6') in 0.417604 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003228 seconds.
+Registered in 0.003336 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\unityBackup\Unity_TeamProject-main\TeamProject_0902\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\unityBackup\Unity_TeamProject-main\TeamProject_0902\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity_TeamProject\TeamProject_0902\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity_TeamProject\TeamProject_0902\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.773 seconds
+- Completed reload, in  0.785 seconds
 Domain Reload Profiling:
-	ReloadAssembly (773ms)
-		BeginReloadAssembly (83ms)
+	ReloadAssembly (785ms)
+		BeginReloadAssembly (94ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
+			CreateAndSetChildDomain (31ms)
 		EndReloadAssembly (652ms)
-			LoadAssemblies (56ms)
+			LoadAssemblies (57ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (222ms)
+			SetupTypeCache (224ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (278ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (279ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (39ms)
-				ProcessInitializeOnLoadAttributes (228ms)
+				BeforeProcessingInitializeOnLoad (37ms)
+				ProcessInitializeOnLoadAttributes (230ms)
 				ProcessInitializeOnLoadMethodAttributes (3ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3593 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 217.9 MB.
-System memory in use after: 218.2 MB.
+Unloading 3594 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 237.2 MB.
+System memory in use after: 237.4 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 4138.
-Total: 1.978700 ms (FindLiveObjects: 0.194900 ms CreateObjectMapping: 0.098500 ms MarkObjects: 1.656300 ms  DeleteObjects: 0.028300 ms)
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 4187.
+Total: 1.917300 ms (FindLiveObjects: 0.197100 ms CreateObjectMapping: 0.081000 ms MarkObjects: 1.625500 ms  DeleteObjects: 0.013000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -202,44 +232,480 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 60.213773 seconds.
-  path: Assets/SineVFX/TopDownEffects
-  artifactKey: Guid(3fd224f99cc34263877cdbbafd2e1b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SineVFX/TopDownEffects using Guid(3fd224f99cc34263877cdbbafd2e1b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d1f6828bb48132f8486afb0d7cc16d') in 0.007187 seconds 
+  Time since last request: 86.459759 seconds.
+  path: Assets/Characters/Wefewolf/Prefabs/WereWolf Gen Rig Wild.prefab
+  artifactKey: Guid(e5ce8cd427371d449aa3b104e1f68bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Wefewolf/Prefabs/WereWolf Gen Rig Wild.prefab using Guid(e5ce8cd427371d449aa3b104e1f68bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0f5ba55a1b0e19c31214a01da769d9d') in 0.437189 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.203165 seconds.
-  path: Assets/SkillshotEffect/ProjectilesFX
-  artifactKey: Guid(fb1b73fc47a87214a8eeec5ad22f9b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkillshotEffect/ProjectilesFX using Guid(fb1b73fc47a87214a8eeec5ad22f9b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6631ea3e45632e84fc24922c530a6efe') in 0.004398 seconds 
+  Time since last request: 0.000313 seconds.
+  path: Assets/Characters/Wefewolf/Prefabs/WereWolf Gen Rig Lightly Armored.prefab
+  artifactKey: Guid(2a2aa23ab26eb5f4789c340052e2c3b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Wefewolf/Prefabs/WereWolf Gen Rig Lightly Armored.prefab using Guid(2a2aa23ab26eb5f4789c340052e2c3b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afc695029a00f6d07a865178d5075863') in 0.830588 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.084175 seconds.
-  path: Assets/SkillshotEffect/ProjectilesFX/Demo
-  artifactKey: Guid(dc71b036a22080c4fa9513a9ccdbda22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkillshotEffect/ProjectilesFX/Demo using Guid(dc71b036a22080c4fa9513a9ccdbda22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e4cf550ec855c17cf1dc3d8b35882cf') in 0.004130 seconds 
+  Time since last request: 0.000277 seconds.
+  path: Assets/Characters/Wefewolf/Prefabs/WereWolf Gen Rig Heavily Armored.prefab
+  artifactKey: Guid(87dd71e91334e534fae6a7e8265c9194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Wefewolf/Prefabs/WereWolf Gen Rig Heavily Armored.prefab using Guid(87dd71e91334e534fae6a7e8265c9194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e3ab1579da658140458d71445c890f7') in 1.076441 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.295702 seconds.
-  path: Assets/SpecialSkillsEffectsPack/GuidePaper
-  artifactKey: Guid(ac3cb0b7930b0d347a6f46f6c121f701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpecialSkillsEffectsPack/GuidePaper using Guid(ac3cb0b7930b0d347a6f46f6c121f701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72acc50c511cf2e387871b4a32443fd5') in 0.004122 seconds 
+  Time since last request: 4.735570 seconds.
+  path: Assets/Scenes/MainScene_copy.unity
+  artifactKey: Guid(57f5191d51f1eb5498ac6e8a27019ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene_copy.unity using Guid(57f5191d51f1eb5498ac6e8a27019ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bfd850c962e5675c321f5b8f7ce3a45') in 0.002490 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.278296 seconds.
-  path: Assets/SpecialSkillsEffectsPack/Patch/Materials
-  artifactKey: Guid(51de664d4bca82a43952975bf9e73e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpecialSkillsEffectsPack/Patch/Materials using Guid(51de664d4bca82a43952975bf9e73e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b5300b969720d1f0474e56ab9b50b8e') in 0.004765 seconds 
+  Time since last request: 302.124673 seconds.
+  path: Assets/Resources/2D/Ability 1.psd
+  artifactKey: Guid(e92bc4757aa139f4f907ad239d49d7fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/2D/Ability 1.psd using Guid(e92bc4757aa139f4f907ad239d49d7fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd707461a7a7a3608fbc523ffaad0ce09') in 0.046167 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.374882 seconds.
-  path: Assets/SpecialSkillsEffectsPack/Patch/Prefebs
-  artifactKey: Guid(836dffaf7afa8d64caddbedaac33f583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpecialSkillsEffectsPack/Patch/Prefebs using Guid(836dffaf7afa8d64caddbedaac33f583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcdc0959c60f51e75f6b7c2b2afb5f0b') in 0.004450 seconds 
+  Time since last request: 0.000180 seconds.
+  path: Assets/Characters/AssaultMechDreadnought/Textures/AssaultMechDreadnought/AssaultMechDreadnoughtNormal.png
+  artifactKey: Guid(031bd2857053b71449eb1a1f3899e0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/AssaultMechDreadnought/Textures/AssaultMechDreadnought/AssaultMechDreadnoughtNormal.png using Guid(031bd2857053b71449eb1a1f3899e0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ea4a4a9eac7ae21ca48bf9a138f120e') in 0.025235 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.303084 seconds.
-  path: Assets/SpecialSkillsEffectsPack/Patch/Toon
-  artifactKey: Guid(9e222c85edb0d154fb8243364f3d8fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpecialSkillsEffectsPack/Patch/Toon using Guid(9e222c85edb0d154fb8243364f3d8fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25fe4ec51bf7c7f50a66076f8f4fc188') in 0.004341 seconds 
+  Time since last request: 0.000176 seconds.
+  path: Assets/Characters/AssaultMechDreadnought/Textures/AssaultMechDreadnought/AssaultMechDreadnoughtAO.png
+  artifactKey: Guid(8fd11ce8a899ae24a841662fc22919d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/AssaultMechDreadnought/Textures/AssaultMechDreadnought/AssaultMechDreadnoughtAO.png using Guid(8fd11ce8a899ae24a841662fc22919d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '388277eee7f700311f5649753ac65780') in 0.015836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Characters/AssaultMechDreadnought/Textures/AssaultMechDreadnought/Albedo/AssaultMechDreadnoughtBlueAlbedo.png
+  artifactKey: Guid(15a45b4256f48ce489d2e1be369d7d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/AssaultMechDreadnought/Textures/AssaultMechDreadnought/Albedo/AssaultMechDreadnoughtBlueAlbedo.png using Guid(15a45b4256f48ce489d2e1be369d7d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1574ff6fc6a8a9720e0d6fcb84b69e8') in 0.015565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Characters/AssaultMechDreadnought/Textures/AssaultMechDreadnought/AssaultMechDreadnoughtIllumination.png
+  artifactKey: Guid(d7d7c58e8dec7444b9b9484a0b02d5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/AssaultMechDreadnought/Textures/AssaultMechDreadnought/AssaultMechDreadnoughtIllumination.png using Guid(d7d7c58e8dec7444b9b9484a0b02d5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66ae5a8b7cf06829e5567d2381099ee5') in 0.015768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Characters/AssaultMechDreadnought/Textures/AssaultMechDreadnought/Albedo/AssaultMechDreadnoughtRedAlbedo.png
+  artifactKey: Guid(6c2ac33020d10c643a8eeecfd7ebdb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/AssaultMechDreadnought/Textures/AssaultMechDreadnought/Albedo/AssaultMechDreadnoughtRedAlbedo.png using Guid(6c2ac33020d10c643a8eeecfd7ebdb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c97c100dcb6f81129d35dbecaa42dfac') in 0.150511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/SineVFX/TopDownEffects/Resources/Meshes/Regular/Materials/BowMat_Normal.png
+  artifactKey: Guid(5e6c0566dcc6c9d46a8f87dcca9e886f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TopDownEffects/Resources/Meshes/Regular/Materials/BowMat_Normal.png using Guid(5e6c0566dcc6c9d46a8f87dcca9e886f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fee00c41f1a9cc7d33a18dfe397c3aa') in 0.091994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/SineVFX/TopDownEffects/Resources/Textures/ForVFX/Embers/BetterEmbers04.png
+  artifactKey: Guid(f51b5dcd1f0c48e1812ca83158a65239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TopDownEffects/Resources/Textures/ForVFX/Embers/BetterEmbers04.png using Guid(f51b5dcd1f0c48e1812ca83158a65239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c945b10678d3cdf47d6e8ac0ca85665') in 0.026117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Scene/Demo/Buildings/build_building_01_o.png
+  artifactKey: Guid(13f2499549511eb48a7e4d33f2e8bc08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Scene/Demo/Buildings/build_building_01_o.png using Guid(13f2499549511eb48a7e4d33f2e8bc08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8908cde1e112c2082fd82f1349dc692a') in 0.039049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Characters/AssaultMechDreadnought/Textures/AssaultMechDreadnought/Albedo/AssaultMechDreadnoughtYellowAlbedo.png
+  artifactKey: Guid(511afee7e7be7564c95cc58fadd07fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/AssaultMechDreadnought/Textures/AssaultMechDreadnought/Albedo/AssaultMechDreadnoughtYellowAlbedo.png using Guid(511afee7e7be7564c95cc58fadd07fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7963af7986594b1d291f8752909b066') in 0.015407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Dragon/Texture/DragonNightmare/BlueHP.png
+  artifactKey: Guid(7bc2111318adeb14684c06f70d594a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dragon/Texture/DragonNightmare/BlueHP.png using Guid(7bc2111318adeb14684c06f70d594a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05c2ece6f18fda1febffe71cfe8309ed') in 0.081809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Dragon/Texture/DragonUsurper/BlueHP.png
+  artifactKey: Guid(bd6a5ac65d3f73a48bdbc2102872fac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dragon/Texture/DragonUsurper/BlueHP.png using Guid(bd6a5ac65d3f73a48bdbc2102872fac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03acce01309aa2e1738a26c6898a6cff') in 0.116663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Aura_Asset/Auras pack/Textures/BloodAnim1.png
+  artifactKey: Guid(88ae00f78b3eaf74f9684f534fc4dac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aura_Asset/Auras pack/Textures/BloodAnim1.png using Guid(88ae00f78b3eaf74f9684f534fc4dac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d01a43dad793cf0f806fab1b4c76764') in 0.087017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Scene/Demo/Buildings/build_building_01_n.png
+  artifactKey: Guid(991796a67a3a479409c5666c5762056e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Scene/Demo/Buildings/build_building_01_n.png using Guid(991796a67a3a479409c5666c5762056e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e3b93a05949185137320fb24e9f62c') in 0.055431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Characters/AssaultMechDreadnought/Textures/AssaultMechDreadnought/AlbedoAO/AssaultMechDreadnoughtWhiteAlbedoAO.png
+  artifactKey: Guid(53c516f40d350e7409883fde121589d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/AssaultMechDreadnought/Textures/AssaultMechDreadnought/AlbedoAO/AssaultMechDreadnoughtWhiteAlbedoAO.png using Guid(53c516f40d350e7409883fde121589d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9482f500e0415b77d62a52a17cff0a75') in 0.154395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Characters/sf_soldier4/Textures/body_dark_s.tga
+  artifactKey: Guid(0f6b6a53e5bebf14b9543402a7f05e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/sf_soldier4/Textures/body_dark_s.tga using Guid(0f6b6a53e5bebf14b9543402a7f05e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b7bf3806d4957714fcf45ecbd397a1e') in 0.011348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Scene/Demo/Props/build_boat_02_o.png
+  artifactKey: Guid(20296e1c032d1c84f8ef062dad0ede46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Scene/Demo/Props/build_boat_02_o.png using Guid(20296e1c032d1c84f8ef062dad0ede46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b011579449c1bd7c82d3bf96c98b62ba') in 0.016336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Dragon/Texture/DragonSoulEater/BlueHP.png
+  artifactKey: Guid(11ae2c7ef2ee4f745810a00f1cbbd469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dragon/Texture/DragonSoulEater/BlueHP.png using Guid(11ae2c7ef2ee4f745810a00f1cbbd469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a556f72b5fe6b7cea0ab51bcf66a1b3') in 0.125830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Materials/Scene/Brick2_Normal.png
+  artifactKey: Guid(88472233a2c77d84d901f89687c95822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Materials/Scene/Brick2_Normal.png using Guid(88472233a2c77d84d901f89687c95822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3dff38b233c2fe99a8243a9964a0c5a') in 0.032681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Characters/AssaultMechDreadnought/Textures/AssaultMechDreadnought/AlbedoAO/AssaultMechDreadnoughtYellowAlbedoAO.png
+  artifactKey: Guid(90463f40696b45248b4ca681e00db57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/AssaultMechDreadnought/Textures/AssaultMechDreadnought/AlbedoAO/AssaultMechDreadnoughtYellowAlbedoAO.png using Guid(90463f40696b45248b4ca681e00db57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d1959d9e1e4e91b3babe4243f4f6cab') in 0.155123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Characters/sf_soldier4/Textures/body_dark_h.tga
+  artifactKey: Guid(8f080f34d8e674a44ae6690b7dc3d94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/sf_soldier4/Textures/body_dark_h.tga using Guid(8f080f34d8e674a44ae6690b7dc3d94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b9ba7a356a13b1b78c819d7632dd593') in 0.031640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Resources/2D/Ability 2.psd
+  artifactKey: Guid(f88a80aff98642647b7113dc132f0783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/2D/Ability 2.psd using Guid(f88a80aff98642647b7113dc132f0783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3fc1e84913a08885b2898856cfc184d') in 0.028193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/Characters/AssaultMechDreadnought/Textures/AssaultMechDreadnought/AlbedoAO/AssaultMechDreadnoughtBlackAlbedoAO.png
+  artifactKey: Guid(d834583c85d83d64e98eddaa63547ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/AssaultMechDreadnought/Textures/AssaultMechDreadnought/AlbedoAO/AssaultMechDreadnoughtBlackAlbedoAO.png using Guid(d834583c85d83d64e98eddaa63547ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e77b671b3471e5dbb14f3f9e48a957c') in 0.137435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Materials/Share/Aura2.png
+  artifactKey: Guid(f9bb0fc00d645b74a9f69161d166cbc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Materials/Share/Aura2.png using Guid(f9bb0fc00d645b74a9f69161d166cbc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6df50862f8d083913cb0efbd9cca67a9') in 0.009850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/SineVFX/TopDownEffects/Resources/Textures/ForVFX/Embers/BetterEmbers08_Packed.png
+  artifactKey: Guid(2f1d9e04eb064fba91114c969699e332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TopDownEffects/Resources/Textures/ForVFX/Embers/BetterEmbers08_Packed.png using Guid(2f1d9e04eb064fba91114c969699e332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07916a8a1b6eb91c7ecb75bf3413eb7b') in 0.093632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Materials/Scene/Brick4_Normal.png
+  artifactKey: Guid(c4c6763dbaa94ad44bb662692b1ab068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Materials/Scene/Brick4_Normal.png using Guid(c4c6763dbaa94ad44bb662692b1ab068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f01e53f162cb940cb89d662f2c9df056') in 0.030498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/Characters/AssaultMechDreadnought/Textures/AssaultMechDreadnought/AssaultMechDreadnoughtPBRMetalness.tga
+  artifactKey: Guid(895e59aaad1e4c34a84dbd8ad029d48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/AssaultMechDreadnought/Textures/AssaultMechDreadnought/AssaultMechDreadnoughtPBRMetalness.tga using Guid(895e59aaad1e4c34a84dbd8ad029d48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33df8c3c4098e5a40f71c64049c4c291') in 0.023310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Dragon/Texture/DragonTerrorBringer/BlueHP.png
+  artifactKey: Guid(2f825827868c75a4fa366c81b5d8b977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dragon/Texture/DragonTerrorBringer/BlueHP.png using Guid(2f825827868c75a4fa366c81b5d8b977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '342acfada9a6f9c2fcf2c8e552849ef5') in 0.102865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/SineVFX/TopDownEffects/Resources/Meshes/Regular/Materials/BowMat_Emission.png
+  artifactKey: Guid(075fb21784e2cc74eacb3054dc077fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TopDownEffects/Resources/Meshes/Regular/Materials/BowMat_Emission.png using Guid(075fb21784e2cc74eacb3054dc077fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3be2ac6df28a6a373e11d1bb1fc3793f') in 0.049567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Materials/Scene/Brick4.png
+  artifactKey: Guid(61fa2bdbfc7f53f468c37b935605884d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Materials/Scene/Brick4.png using Guid(61fa2bdbfc7f53f468c37b935605884d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79de258b6ad982f66347e9ce7ff907c1') in 0.028693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/SineVFX/TopDownEffects/Resources/Meshes/Regular/Materials/ArrowMat_Normal.png
+  artifactKey: Guid(22f0c117fc76df54dadf2678d69d3214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TopDownEffects/Resources/Meshes/Regular/Materials/ArrowMat_Normal.png using Guid(22f0c117fc76df54dadf2678d69d3214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd566a6b7d2749e3ac20d7b2bfd099df') in 0.107685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Characters/AssaultMechDreadnought/Textures/AssaultMechDreadnought/Albedo/AssaultMechDreadnoughtBlackAlbedo.png
+  artifactKey: Guid(dc941fb47f20a9445a9c30342c24317e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/AssaultMechDreadnought/Textures/AssaultMechDreadnought/Albedo/AssaultMechDreadnoughtBlackAlbedo.png using Guid(dc941fb47f20a9445a9c30342c24317e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a04f1c337ea6597598c6044b697455d') in 0.135855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Characters/AssaultMechDreadnought/Textures/AssaultMechDreadnought/AlbedoAO/AssaultMechDreadnoughtBlueAlbedoAO.png
+  artifactKey: Guid(fbceb122e43f04946b045d104cbbd933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/AssaultMechDreadnought/Textures/AssaultMechDreadnought/AlbedoAO/AssaultMechDreadnoughtBlueAlbedoAO.png using Guid(fbceb122e43f04946b045d104cbbd933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82f3efd17c60474907b08e716fd4f956') in 0.140569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Characters/sf_soldier4/Textures/body_dark_n.tga
+  artifactKey: Guid(780e69f3c8c496d43b0d2c11928f9194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/sf_soldier4/Textures/body_dark_n.tga using Guid(780e69f3c8c496d43b0d2c11928f9194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37a4011c16b2ecf20fdf572472aa6516') in 0.009394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/SineVFX/TopDownEffects/Resources/Meshes/Regular/Materials/BowMat_MetallicSmoothness.png
+  artifactKey: Guid(986f06b7e50a9544f871c73c435282bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TopDownEffects/Resources/Meshes/Regular/Materials/BowMat_MetallicSmoothness.png using Guid(986f06b7e50a9544f871c73c435282bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e10c203a12d506c505b92287bc62a8d0') in 0.093432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000857 seconds.
+  path: Assets/Characters/Wefewolf/Textures/Iron Armor/Alpha_Clip _body_Armor.png
+  artifactKey: Guid(f2d9d06b1c1a2dc489009339524317ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Wefewolf/Textures/Iron Armor/Alpha_Clip _body_Armor.png using Guid(f2d9d06b1c1a2dc489009339524317ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55f5699e65308e8d2b9e0331b2a1b58') in 0.600149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Resources/2D/Ability 3.psd
+  artifactKey: Guid(ef21231b06d13bc48a4084e32b42d3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/2D/Ability 3.psd using Guid(ef21231b06d13bc48a4084e32b42d3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2128f7007997d7e1888e6907711fc3c5') in 0.027363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Scene/Demo/Buildings/build_building_01_a.png
+  artifactKey: Guid(09fa14695ca756742996a3a973937375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Scene/Demo/Buildings/build_building_01_a.png using Guid(09fa14695ca756742996a3a973937375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c51318a1c4cadfe66d574bd67c56ac83') in 0.029190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/SineVFX/TopDownEffects/Resources/Textures/ForVFX/Embers/BetterEmbers07.png
+  artifactKey: Guid(0903a99127b64324a73871e4cc76d9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TopDownEffects/Resources/Textures/ForVFX/Embers/BetterEmbers07.png using Guid(0903a99127b64324a73871e4cc76d9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd4202b5736a476234f56a05794f5a9f') in 0.023128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Scene/Demo/Buildings/build_building_01_m.png
+  artifactKey: Guid(c99f4070d22e75a43b9bf2fc9dd1a26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Scene/Demo/Buildings/build_building_01_m.png using Guid(c99f4070d22e75a43b9bf2fc9dd1a26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bb0e0f887d020ec8d82875483fad6a6') in 0.030993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/SineVFX/TopDownEffects/Resources/Meshes/Regular/Materials/BowMat_AlbedoTransparency.png
+  artifactKey: Guid(3cd0e609cad3bb7479bf9026edb0a6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TopDownEffects/Resources/Meshes/Regular/Materials/BowMat_AlbedoTransparency.png using Guid(3cd0e609cad3bb7479bf9026edb0a6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c7413b89dfbe5816a4ddaeffafb952d') in 0.066348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Materials/Share/Distortions/Aura2_Normal.png
+  artifactKey: Guid(c8b3e5216f13f1248a0857a10afc8fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Materials/Share/Distortions/Aura2_Normal.png using Guid(c8b3e5216f13f1248a0857a10afc8fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db4c3be919bf08bc3338a41f8d7bb943') in 0.008559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Resources/2D/Arrow_Ability_Indicator_Blue.png
+  artifactKey: Guid(7bea1a92eefbb5646b0e2a701facb43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/2D/Arrow_Ability_Indicator_Blue.png using Guid(7bea1a92eefbb5646b0e2a701facb43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58097935146f5740e928fee264959a33') in 0.012416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/SineVFX/PostProcessingV2/Textures/SMAA/AreaTex.tga
+  artifactKey: Guid(73ec4ae984a0a0f44a2be737e41a6f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/PostProcessingV2/Textures/SMAA/AreaTex.tga using Guid(73ec4ae984a0a0f44a2be737e41a6f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '455892753a16503de6c2cdb588df64a8') in 0.028249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Characters/sf_soldier4/Textures/body_dark_d.tga
+  artifactKey: Guid(bc71761a7d612ca4b9cd9c42fca89ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/sf_soldier4/Textures/body_dark_d.tga using Guid(bc71761a7d612ca4b9cd9c42fca89ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5978cd43c24066467f940248f151e4e') in 0.008934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Characters/AssaultMechDreadnought/Textures/AssaultMechDreadnought/Albedo/AssaultMechDreadnoughtWhiteAlbedo.png
+  artifactKey: Guid(0d90ed97d91fdc047a0f62012f9f4b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/AssaultMechDreadnought/Textures/AssaultMechDreadnought/Albedo/AssaultMechDreadnoughtWhiteAlbedo.png using Guid(0d90ed97d91fdc047a0f62012f9f4b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ba8c619ca4df04b3a4d8a42b7f4b16') in 0.182724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/SineVFX/TopDownEffects/Resources/Meshes/Regular/Materials/ArrowMat_MetallicSmoothness.png
+  artifactKey: Guid(79cae8678f8098c4993922ae26c1d168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TopDownEffects/Resources/Meshes/Regular/Materials/ArrowMat_MetallicSmoothness.png using Guid(79cae8678f8098c4993922ae26c1d168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c135dea71fcd3224c63484f21915005') in 0.087217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Scene/Demo/Props/build_boat_02_n.png
+  artifactKey: Guid(1eed8a4930080444bad5b000ac60e775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Scene/Demo/Props/build_boat_02_n.png using Guid(1eed8a4930080444bad5b000ac60e775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a42cc5f21cc8c78e4cb6dd286ceaea0') in 0.026680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000482 seconds.
+  path: Assets/Dragon/Texture/DragonNightmare/AlbinoHP.png
+  artifactKey: Guid(567379e57808cd747b2f0e08790e0d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dragon/Texture/DragonNightmare/AlbinoHP.png using Guid(567379e57808cd747b2f0e08790e0d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d189f77c7bfb6806193ff316cea455') in 0.111199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/SineVFX/TopDownEffects/Resources/Meshes/Regular/Materials/ArrowMat_AlbedoTransparency.png
+  artifactKey: Guid(b170717156ba1364c9a7200661a4d469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TopDownEffects/Resources/Meshes/Regular/Materials/ArrowMat_AlbedoTransparency.png using Guid(b170717156ba1364c9a7200661a4d469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a613c02ec7aec5f4ae7235d6b71b09') in 0.086132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000474 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Materials/Objects/BlackHole/BlackCore.png
+  artifactKey: Guid(9482fd9c7fb4b764186bd36eee64a8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Materials/Objects/BlackHole/BlackCore.png using Guid(9482fd9c7fb4b764186bd36eee64a8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e24b8b71c0c328e386539d5937c5b3d') in 0.061191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000484 seconds.
+  path: Assets/Characters/AssaultMechDreadnought/Textures/AssaultMechDreadnought/AlbedoAO/AssaultMechDreadnoughtRedAlbedoAO.png
+  artifactKey: Guid(2af0c351d00da7549b6750602281ce33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/AssaultMechDreadnought/Textures/AssaultMechDreadnought/AlbedoAO/AssaultMechDreadnoughtRedAlbedoAO.png using Guid(2af0c351d00da7549b6750602281ce33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bd68924241266de5dc4e62f2ca61b3a') in 0.191609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Characters/Wefewolf/Textures/Leather Armor/Alpha_Clip _body_Armor.png
+  artifactKey: Guid(6d11ba2ae5dc58543b25d9f7943b6377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Wefewolf/Textures/Leather Armor/Alpha_Clip _body_Armor.png using Guid(6d11ba2ae5dc58543b25d9f7943b6377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0262e0cfcafc897fe8a8e9879494aa2f') in 0.053028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Scene/Demo/Buildings/build_building_01_sg.png
+  artifactKey: Guid(f9ea7ce1c1a61ba4e9993ef242cc2ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Scene/Demo/Buildings/build_building_01_sg.png using Guid(f9ea7ce1c1a61ba4e9993ef242cc2ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d38dc72e1d42b28fd5443582f747c1f') in 0.031992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/angelStatue/Textures/angelStatue.png
+  artifactKey: Guid(b1113e1c30577e6488aeee84842a01ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/angelStatue/Textures/angelStatue.png using Guid(b1113e1c30577e6488aeee84842a01ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72803e8d203c779a3151f50965d0011a') in 0.084110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/KriptoFX/Realistic Effects Pack 3/Scene/Demo/Props/build_boat_02_a.png
+  artifactKey: Guid(ece0cd5dc895004458b80caa364f5cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KriptoFX/Realistic Effects Pack 3/Scene/Demo/Props/build_boat_02_a.png using Guid(ece0cd5dc895004458b80caa364f5cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1a1d998fbeed6daf8813c3090a2fa6') in 0.036992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 211.824252 seconds.
+  path: Assets/Resources/WhiteTiger
+  artifactKey: Guid(9c45bfb4943bf6543b9c0955ceab9a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/WhiteTiger using Guid(9c45bfb4943bf6543b9c0955ceab9a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dff4ed35edc6d71bb4bdafc1e9a07ead') in 0.005086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.956937 seconds.
+  path: Assets/Resources/WhiteTiger/WhiteTiger.prefab
+  artifactKey: Guid(61386fd462956ac49b440bd947d993dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/WhiteTiger/WhiteTiger.prefab using Guid(61386fd462956ac49b440bd947d993dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc1936300aedd6aa4a25a89c3d32daf') in 0.892546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 149.412568 seconds.
+  path: Assets/Resources/coldy
+  artifactKey: Guid(b4ec6a4cddc61b74c8ce46251cd3410e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/coldy using Guid(b4ec6a4cddc61b74c8ce46251cd3410e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dae38fecc31694707e22bfcf58f6ee2f') in 0.005110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.650118 seconds.
+  path: Assets/Characters/sf_soldier4
+  artifactKey: Guid(e0da736a650ed8146908200ce0628a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/sf_soldier4 using Guid(e0da736a650ed8146908200ce0628a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78f38d9ef15d678dfb63d73d503c92e6') in 0.021958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.269024 seconds.
+  path: Assets/Characters/Wefewolf
+  artifactKey: Guid(16859a17fa20e3243979712627d0123d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Wefewolf using Guid(16859a17fa20e3243979712627d0123d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1638ede89e9c6161004c1677841c94cb') in 0.004599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.975744 seconds.
+  path: Assets/Characters/Wefewolf/Scenes
+  artifactKey: Guid(6382d99f91d079f47a20087293a78f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Wefewolf/Scenes using Guid(6382d99f91d079f47a20087293a78f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e47935a3dfd6c8a3c0148170ef0b87c3') in 0.004553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.602837 seconds.
+  path: Assets/Characters/Wefewolf/Animation/WereWolf Animation Generic.controller
+  artifactKey: Guid(eeddabbf47e44e649b95373ee1f05c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Wefewolf/Animation/WereWolf Animation Generic.controller using Guid(eeddabbf47e44e649b95373ee1f05c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0bf56c4c7a4a6e2141b46efebef2e5') in 0.009923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.098488 seconds.
+  path: Assets/Characters/Wefewolf/Animation/WereWolf Animation Generic.fbx
+  artifactKey: Guid(070b5be122669f7448363a11145f8e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Wefewolf/Animation/WereWolf Animation Generic.fbx using Guid(070b5be122669f7448363a11145f8e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f973c385d6253694fe2108d26f361885') in 0.130762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.499878 seconds.
+  path: Assets/Characters/Wefewolf/Animation/WereWolf Animation Humanoid 1.controller
+  artifactKey: Guid(ebd51280affccf848be80eb5ad125a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Wefewolf/Animation/WereWolf Animation Humanoid 1.controller using Guid(ebd51280affccf848be80eb5ad125a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd182b296efc5707e29f65978d6f8a92c') in 0.006815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.257533 seconds.
+  path: Assets/Characters/Wefewolf/Animation/WereWolf Animation Humanoid.fbx
+  artifactKey: Guid(aab4a2667cabe5a4cbb255140a9df8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Wefewolf/Animation/WereWolf Animation Humanoid.fbx using Guid(aab4a2667cabe5a4cbb255140a9df8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e07ba01b4fbc21c04eb5d168cad6d1b3') in 0.120154 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003469 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity_TeamProject\TeamProject_0902\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity_TeamProject\TeamProject_0902\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.251 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1251ms)
+		BeginReloadAssembly (81ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (1132ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (229ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (277ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (227ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3650 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 0.62 GB.
+System memory in use after: 0.62 GB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 5040.
+Total: 2.165700 ms (FindLiveObjects: 0.242500 ms CreateObjectMapping: 0.098400 ms MarkObjects: 1.796100 ms  DeleteObjects: 0.027800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
