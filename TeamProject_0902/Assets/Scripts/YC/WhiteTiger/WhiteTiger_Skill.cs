@@ -15,7 +15,13 @@ public class WhiteTiger_Skill : MonoBehaviour
 
     private float DirecAngle;
     private Vector3 mouseVector;
-    
+    [Header("Q_Skill")]
+    [SerializeField] private GameObject Q_Punch_L;
+    [SerializeField] private GameObject Q_Punch_R;
+    [SerializeField] private GameObject adv_Q_Punch;
+    [SerializeField] private GameObject Q_Effect;
+    [SerializeField] private GameObject adv_Q_Effect;
+
 
     [Header("W_Skill")]
     [SerializeField] private GameObject W_Shield;
@@ -39,6 +45,13 @@ public class WhiteTiger_Skill : MonoBehaviour
 
         Direction.SetActive(false);
         Range.SetActive(false);
+
+        Q_Punch_L.SetActive(false);
+        Q_Punch_R.SetActive(false);
+        adv_Q_Punch.SetActive(false);
+        Q_Effect.SetActive(false);
+        adv_Q_Effect.SetActive(false);
+
         W_Shield.SetActive(false);
         adv_W_Shield.SetActive(false);
         E_Aura.SetActive(false);
@@ -54,7 +67,8 @@ public class WhiteTiger_Skill : MonoBehaviour
         if(WildPoint==4)
         {
             isWild = true;
-            StartCoroutine("Wild_State");
+            animator.SetBool("Wildness", true);
+          //  StartCoroutine("Wild_State");
             WildPoint = 0;
         }
 
@@ -122,20 +136,60 @@ public class WhiteTiger_Skill : MonoBehaviour
         {
             yield return new WaitForSeconds(8.0f);
             isWild = false;
+            animator.SetBool("Wildness", false);
             break;
         }
     }
+
+    IEnumerator Active_Q()
+    {
+        while (true)
+        {
+
+            if (!isWild)
+            {
+                Q_Punch_L.SetActive(true);
+                Q_Punch_R.SetActive(true);
+                yield return new WaitForSeconds(1.5f);
+                Q_Punch_L.SetActive(false);
+                Q_Punch_R.SetActive(false);
+                animator.SetBool("Q_WT", false);
+                break;
+            }
+            else
+            {
+                adv_Q_Punch.SetActive(true);
+                yield return new WaitForSeconds(1.5f);
+                adv_Q_Punch.SetActive(false);
+                animator.SetBool("Q_WT", false);
+                break;
+            }
+        }
+    }
+
 
     IEnumerator Active_W()
     {
         while (true)
         {
-            yield return new WaitForSeconds(0.3f);
-            animator.SetBool("W_WT", false);
-            W_Shield.SetActive(true);
-            yield return new WaitForSeconds(1.5f);
-            W_Shield.SetActive(false);
-            break;
+            if (!isWild)
+            {
+                yield return new WaitForSeconds(0.3f);
+                animator.SetBool("W_WT", false);
+                W_Shield.SetActive(true);
+                yield return new WaitForSeconds(1.5f);
+                W_Shield.SetActive(false);
+                break;
+            }
+            else
+            {
+                yield return new WaitForSeconds(0.3f);
+                animator.SetBool("W_WT", false);
+                adv_W_Shield.SetActive(true);
+                yield return new WaitForSeconds(1.5f);
+                adv_W_Shield.SetActive(false);
+                break;
+            }
         }
     }
 
@@ -152,7 +206,10 @@ public class WhiteTiger_Skill : MonoBehaviour
             }
             else
             {
-
+                adv_E_Aura.SetActive(true);
+                yield return new WaitForSeconds(6.0f);
+                adv_E_Aura.SetActive(false);
+                break;
             }
         }
     }
