@@ -45,7 +45,7 @@ public class WaveManager : MonoBehaviour
             //////////////////
             ///MinionsSpawn///
             //////////////////
-            SpawnUnit(MeleePrefab, GameConsts.SPAWN_MID);
+            //SpawnUnit(MeleePrefab, GameConsts.SPAWN_MID);
 
 
             //for(int i=0;i<SpawnPoints.Count;i++)                
