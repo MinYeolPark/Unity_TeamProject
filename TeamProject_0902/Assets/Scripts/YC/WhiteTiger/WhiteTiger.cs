@@ -7,7 +7,8 @@ public class WhiteTiger : MonoBehaviour
 {
     //Animation
     Animator animator;
-    public float runSpeed = 10.0f;
+    private float originalSpeed;
+    public float skillSpeed = 10.0f;
     Vector3 Direction;
 
     NavMeshAgent agent;
@@ -43,6 +44,7 @@ public class WhiteTiger : MonoBehaviour
         playerDir = ycManager.Instance.PlayerDirection;
         onSkill = false;
         TargetPos = ycManager.Instance.PlayerTargetPos;
+        originalSpeed = agent.speed;
     }
 
 
@@ -77,20 +79,25 @@ public class WhiteTiger : MonoBehaviour
                 hit_ = hit;
             }
             isupdate = true;
+            PlayerDest = ycManager.Instance.PlayerClickedPos;
         }
-        PlayerDest = ycManager.Instance.PlayerClickedPos;
+
     }
 
     private void LateUpdate()       //update에서 좌표값 갱신 후에 lateupdate에서 움직임
     {
         if(onSkill)
         {
- 
+            agent.speed = skillSpeed;
             agent.SetDestination(TargetPos);
-            if (Vector3.Distance(TargetPos,agent.transform.position)<0.01f)
+            PlayerDest = TargetPos;
+            if (Vector3.Distance(TargetPos, agent.transform.position) < 0.01f)
+            {
                 onSkill = false;
+                agent.speed = originalSpeed;
+            }
         }
-        if (isupdate)
+        if (isupdate&&!onSkill)
         {
             PlayerMove();
         }
@@ -103,7 +110,6 @@ public class WhiteTiger : MonoBehaviour
         {
 
             //Move
-            if(!onSkill)
             agent.SetDestination(PlayerDest);
             agent.stoppingDistance = 0;
 
