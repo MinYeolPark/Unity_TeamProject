@@ -23,9 +23,15 @@ public static class GameConsts
     public static int MINION_SPAWN_TIME = 5;//75
     public static int MINION_WAVE_TIME = 5;//30
 
+<<<<<<< Updated upstream
     public const float PLAYER_RESPAWN_TIME = 4.0f;
 
     public const string PLAYER_READY = "IsPlayerReady";
+=======
+    public static float PLAYER_RESPAWN_TIME = 4.0f;
+
+    public static string PLAYER_READY = "IsPlayerReady";
+>>>>>>> Stashed changes
 
     public static ChampionDatabase.Champions GetChampion(int championChoice)
     {
