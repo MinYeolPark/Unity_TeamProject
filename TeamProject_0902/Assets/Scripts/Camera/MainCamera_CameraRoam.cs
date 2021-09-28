@@ -5,7 +5,7 @@ using UnityEngine;
 public class MainCamera_CameraRoam : MonoBehaviour
 {
     //space ют╥б╫ц event////
-    public Transform player;
+    private Transform player;
     private Vector3 cameraOffset;
 
     [Range(0.01f, 1.0f)]
@@ -22,7 +22,7 @@ public class MainCamera_CameraRoam : MonoBehaviour
 
     private void Start()
     {
-        
+        player = GameObject.FindWithTag("Player").transform;
     }
 
     void Update()
