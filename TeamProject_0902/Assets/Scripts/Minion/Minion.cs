@@ -19,8 +19,8 @@ public class Minion : MonoBehaviour
     {
         if (target != null)
         {
-            //navAgent.SetDestination(target.position);
-            if(navAgent.remainingDistance<=0.1f)
+            navAgent.SetDestination(target.position);
+            if(navAgent.remainingDistance<=0.01f)
             {
                 GetNextWayPoint();
             }
@@ -34,7 +34,12 @@ public class Minion : MonoBehaviour
     void GetNextWayPoint()
     {
         wavePointIndex++;
-        target = WayPoints.wayPoints[wavePointIndex];
+        target = WayPoints.wayPoints[wavePointIndex-1];
         navAgent.SetDestination(target.position);
+
+        if(wavePointIndex>=WayPoints.wayPoints.Length-1)
+        {
+            wavePointIndex = WayPoints.wayPoints.Length-1;
+        }
     }
 }

@@ -75,6 +75,11 @@ namespace Photon.Pun.Demo.Asteroids
         {
             ownerId = playerId;
             PlayerNameText.text = playerName;
+<<<<<<< HEAD
+            Debug.Log("OwnerID" + ownerId);
+            Debug.Log("PlayerNameText " + playerName);
+=======
+>>>>>>> 78e8db30eaf0cddb9bd88a0879750ab762656bb6
         }
 
         private void OnPlayerNumberingChanged()

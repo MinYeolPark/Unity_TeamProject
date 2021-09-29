@@ -7,18 +7,16 @@ public class EnemyHealth : MonoBehaviour
 {
     public Slider enemySlider3D;
 
-    Stats statsScript;
+    Stats statsScript;    
 
-    // Start is called before the first frame update
     void Start()
     {
-        statsScript = GameObject.FindGameObjectWithTag("Enemy").GetComponent<Stats>();
+        statsScript = GameObject.FindGameObjectWithTag("Minion").GetComponent<Stats>();
 
         enemySlider3D.maxValue = statsScript.maxHealth;
         statsScript.health = statsScript.maxHealth;
     }
 
-    // Update is called once per frame
     void Update()
     {
         enemySlider3D.value = statsScript.health;

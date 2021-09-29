@@ -184,7 +184,12 @@ public class LobbyManager : MonoBehaviourPunCallbacks
             entry.transform.localScale = Vector3.one;
             entry.GetComponent<PlayerListEntry>().Initialize(p.ActorNumber, p.NickName);
 
+<<<<<<< HEAD
+            object isPlayerReady=null;
+
+=======
             object isPlayerReady;
+>>>>>>> 78e8db30eaf0cddb9bd88a0879750ab762656bb6
             if (p.CustomProperties.TryGetValue(GameConsts.PLAYER_READY, out isPlayerReady))
             {
                 entry.GetComponent<PlayerListEntry>().SetPlayerReady((bool)isPlayerReady);

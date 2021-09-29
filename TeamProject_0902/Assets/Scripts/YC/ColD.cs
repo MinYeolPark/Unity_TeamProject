@@ -58,7 +58,9 @@ public class ColD : MonoBehaviour
         }
         else
             onSkill = false;
-      
+
+        if (agent.velocity.magnitude < 0.1f) { ycManager.Instance.isFree = true; } //비전투모드
+        else { ycManager.Instance.isFree = false; } //전투모드
     }
 
     void RightMouseClicked()

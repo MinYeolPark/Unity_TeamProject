@@ -9865,6 +9865,7 @@ MonoBehaviour:
   ImpactFX: {fileID: 0}
   ImpactFXDestroyDelay: 2
   ImpactOffset: 0.15
+  height: 5
 --- !u!1 &4162063902139371180
 GameObject:
   m_ObjectHideFlags: 0

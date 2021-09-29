@@ -65,6 +65,9 @@ public class WhiteTiger : MonoBehaviour
             TargetPos = ycManager.Instance.PlayerTargetPos;
             onSkill = true;
         }
+
+        if (agent.velocity.magnitude < 0.1f) { ycManager.Instance.isFree = true; } //비전투모드
+        else { ycManager.Instance.isFree = false; } //전투모드
     }
 
     void RightMouseClicked()

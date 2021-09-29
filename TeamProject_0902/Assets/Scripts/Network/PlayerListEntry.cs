@@ -9,6 +9,11 @@ using Photon.Pun;
 
 public class PlayerListEntry : MonoBehaviour
 {
+<<<<<<< HEAD
+    public PhotonView PV;
+    public int playerTeam;
+=======
+>>>>>>> 78e8db30eaf0cddb9bd88a0879750ab762656bb6
     [Header("UI References")]
     public Text PlayerNameText;
 
@@ -23,6 +28,10 @@ public class PlayerListEntry : MonoBehaviour
 
     public void OnEnable()
     {
+<<<<<<< HEAD
+        PV = GetComponent<PhotonView>();
+=======
+>>>>>>> 78e8db30eaf0cddb9bd88a0879750ab762656bb6
         PlayerNumbering.OnPlayerNumberingChanged += OnPlayerNumberingChanged;
     }
 
@@ -36,7 +45,10 @@ public class PlayerListEntry : MonoBehaviour
         {
             Hashtable initialProps = new Hashtable() { { GameConsts.PLAYER_READY, isPlayerReady }};
             PhotonNetwork.LocalPlayer.SetCustomProperties(initialProps);
+<<<<<<< HEAD
+=======
             PhotonNetwork.LocalPlayer.SetScore(0);
+>>>>>>> 78e8db30eaf0cddb9bd88a0879750ab762656bb6
 
             PlayerReadyButton.onClick.AddListener(() =>
             {

@@ -43,10 +43,18 @@ MonoBehaviour:
   - DestroySpaceship
   - Fire
   - RespawnSpaceship
+<<<<<<< HEAD
+  - RPC_GetTeam
+  - RPC_SentTeam
   DisableAutoOpenWizard: 1
   ShowSettings: 0
 <<<<<<< HEAD
   DevRegionSetOnce: 1
 =======
+<<<<<<< Updated upstream
+=======
+  DisableAutoOpenWizard: 1
+  ShowSettings: 0
+>>>>>>> Stashed changes
   DevRegionSetOnce: 0
 >>>>>>> 78e8db30eaf0cddb9bd88a0879750ab762656bb6

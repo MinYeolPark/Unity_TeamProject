@@ -19,13 +19,21 @@ public static class GameConsts
     public static int RED_TEAM = 0;
     public static int BLUE_TEAM = 1;
 
-
+<<<<<<< HEAD
+    public static int MINION_FIRST_SPAWN_TIME = 10;
     public static int MINION_SPAWN_TIME = 5;//75
     public static int MINION_WAVE_TIME = 5;//30
 
 <<<<<<< HEAD
 
 =======
+<<<<<<< Updated upstream
+=======
+
+    public static int MINION_SPAWN_TIME = 5;//75
+    public static int MINION_WAVE_TIME = 5;//30
+
+>>>>>>> Stashed changes
 >>>>>>> 78e8db30eaf0cddb9bd88a0879750ab762656bb6
     public const float PLAYER_RESPAWN_TIME = 4.0f;
 

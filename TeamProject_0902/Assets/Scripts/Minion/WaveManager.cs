@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class WaveManager : MonoBehaviour
 {
-    public List<GameObject> SpawnPoints;
-    public List<List<GameObject>> LaneSpawnPoints;
+    public GameObject SpawnPoint;
 
     public GameObject MeleePrefab;
     public GameObject RangePrefab;
@@ -15,9 +14,9 @@ public class WaveManager : MonoBehaviour
     public int waveNumber = 0;
     public float waveTimer = 0;
 
+    public GameObject Inhibitor;
     public bool MidInhibitor = false;
-    public bool TopInhibitor = false;
-    public bool BottomInhibitor = false;
+
 
     private void Start()
     {
@@ -30,8 +29,14 @@ public class WaveManager : MonoBehaviour
 
     void SpawnWave()
     {
-        if (InGameManager.Instance.gameTime < GameConsts.MINION_SPAWN_TIME)
+        if (InGameManager.Instance.gameTime < GameConsts.MINION_FIRST_SPAWN_TIME)
             return;
+<<<<<<< HEAD
+        if (waveNumber == 0&&waveTimer >= GameConsts.MINION_FIRST_SPAWN_TIME)            //First Minion Spawn after 45sec
+        {    
+            //First Spawn
+            SpawnUnit(MeleePrefab, SpawnPoint);
+=======
         if (waveTimer >= GameConsts.MINION_WAVE_TIME)       //일정 시간을 초과하면 미니언 나오기
         {
             ////Check minion spawn time
@@ -73,72 +78,29 @@ public class WaveManager : MonoBehaviour
             //    }
             //}
 
+>>>>>>> 78e8db30eaf0cddb9bd88a0879750ab762656bb6
 
-            //Add Super Minion
-            //if (BottomInhibitor||MidInhibitor||TopInhibitor)
-            //{
-            //    if(BottomInhibitor&&MidInhibitor&&TopInhibitor)
-            //    {
-            //        for(int s=0;s<GameConsts.SUPER_ALL_COUNT;s++)
-            //        {
-            //            SpawnUnit(SuperPrefab, GameConsts.SPAWN_MID);
-            //            //SpawnUnit(SuperPrefab, GameConsts.SPAWN_BOTTOM);
-            //            //SpawnUnit(SuperPrefab, GameConsts.SPAWN_TOP);
-            //        }
-            //    }
-
-            //    else
-            //    {
-            //        for(int s=0;s<GameConsts.SUPER_COUNT;s++)
-            //        {
-            //            SpawnUnit(SuperPrefab, GameConsts.SPAWN_MID);
-            //            //SpawnUnit(SuperPrefab, GameConsts.SPAWN_BOTTOM);
-            //            //SpawnUnit(SuperPrefab, GameConsts.SPAWN_TOP);
-            //        }
-            //    }
-            //}
-            #endregion
             waveTimer = 0;
             waveNumber++;
         }
-
-        else
+        else if (waveTimer >= GameConsts.MINION_SPAWN_TIME)
         {
+            SpawnUnit(MeleePrefab, SpawnPoint);
+
+            waveTimer = 0;
+            waveNumber++;
+        }
+        else
+        {          
             waveTimer += Time.deltaTime;
         }
     }
 
-    private void SpawnUnit(GameObject prefab,int spawnLoc)
+    private void SpawnUnit(GameObject prefab,GameObject spawnLoc)
     {
-        GameObject gameObject = Instantiate(prefab, SpawnPoints[GameConsts.SPAWN_MID].transform.position, Quaternion.identity);
+        GameObject gameObject = Instantiate(prefab, SpawnPoint.transform.position, Quaternion.identity);
 
         Minion minion = gameObject.GetComponent<Minion>();
-
-        //switch (spawnLoc)
-        //{
-        //    case 0:// Case0 would be only use on this prj
-        //        {
-        //            minion.path = MidSpawnPoints;
-        //            minion.Target = MidSpawnPoints[0].transform;        //Initialize path
-        //            break;
-        //        }
-
-        //    case 1:     //top
-        //        {
-        //            minion.path = TopSpawnPoints;
-        //            minion.Target = MidSpawnPoints[0].transform;        //Initialize path
-
-        //            break;
-        //        }
-
-        //    case 2:     //bottom
-        //        {
-        //            minion.path = BotSpawnPoints;
-        //            minion.Target = MidSpawnPoints[0].transform;        //Initialize path
-
-        //            break;
-        //        }
-        //}
     }
 
 }
