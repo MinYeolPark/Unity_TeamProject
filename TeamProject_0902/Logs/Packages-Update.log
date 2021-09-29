@@ -46,12 +46,17 @@ The following packages were added:
   com.unity.ugui@1.0.0
   com.unity.visualscripting@1.6.1
 
+<<<<<<< HEAD
 === Tue Sep 28 20:20:18 2021
+=======
+=== Fri Sep 24 13:45:29 2021
+>>>>>>> 78e8db30eaf0cddb9bd88a0879750ab762656bb6
 
 Packages were changed.
 Update Mode: updateDependencies
 
 The following packages were updated:
+<<<<<<< HEAD
   com.unity.collab-proxy from version 1.5.7 to 1.9.0
   com.unity.ide.visualstudio from version 2.0.8 to 2.0.11
   com.unity.ide.vscode from version 1.2.3 to 1.2.4
@@ -80,3 +85,9 @@ The following packages were updated:
   com.unity.analytics from version 3.5.3 to 3.6.11
   com.unity.purchasing from version 3.2.1 to 3.2.3
   com.unity.xr.legacyinputhelpers from version 2.1.7 to 2.1.8
+=======
+  com.unity.collab-proxy from version 1.5.7 to 1.7.1
+  com.unity.ide.visualstudio from version 2.0.8 to 2.0.11
+  com.unity.test-framework from version 1.1.24 to 1.1.27
+  com.unity.timeline from version 1.5.5 to 1.5.6
+>>>>>>> 78e8db30eaf0cddb9bd88a0879750ab762656bb6

@@ -60,7 +60,10 @@ namespace Photon.Pun.Demo.Asteroids
         public override void OnConnectedToMaster()
         {
             this.SetActivePanel(SelectionPanel.name);
+<<<<<<< HEAD
             
+=======
+>>>>>>> 78e8db30eaf0cddb9bd88a0879750ab762656bb6
         }
 
         public override void OnRoomListUpdate(List<RoomInfo> roomList)
@@ -251,7 +254,10 @@ namespace Photon.Pun.Demo.Asteroids
             {
                 PhotonNetwork.LocalPlayer.NickName = playerName;
                 PhotonNetwork.ConnectUsingSettings();
+<<<<<<< HEAD
                 Debug.Log(playerName + " Logged in");
+=======
+>>>>>>> 78e8db30eaf0cddb9bd88a0879750ab762656bb6
             }
             else
             {

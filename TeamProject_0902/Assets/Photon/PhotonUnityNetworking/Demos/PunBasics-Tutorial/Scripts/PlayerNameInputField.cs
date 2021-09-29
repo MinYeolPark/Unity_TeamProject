@@ -31,8 +31,13 @@ namespace Photon.Pun.Demo.PunBasics
 		/// <summary>
 		/// MonoBehaviour method called on GameObject by Unity during initialization phase.
 		/// </summary>
+<<<<<<< HEAD
 		void Start () 
 		{
+=======
+		void Start () {
+		
+>>>>>>> 78e8db30eaf0cddb9bd88a0879750ab762656bb6
 			string defaultName = string.Empty;
 			InputField _inputField = this.GetComponent<InputField>();
 
@@ -58,12 +63,15 @@ namespace Photon.Pun.Demo.PunBasics
 		/// <param name="value">The name of the Player</param>
 		public void SetPlayerName(string value)
 		{
+<<<<<<< HEAD
 			if(value!="")
             {
 				value = "";
 
 			}
 				
+=======
+>>>>>>> 78e8db30eaf0cddb9bd88a0879750ab762656bb6
 			// #Important
 		    if (string.IsNullOrEmpty(value))
 		    {

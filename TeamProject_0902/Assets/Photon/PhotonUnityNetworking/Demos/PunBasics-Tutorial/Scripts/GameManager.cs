@@ -54,8 +54,12 @@ namespace Photon.Pun.Demo.PunBasics
 			// in case we started this demo with the wrong scene being active, simply load the menu scene
 			if (!PhotonNetwork.IsConnected)
 			{
+<<<<<<< HEAD
 				//SceneManager.LoadScene("PunBasics-Launcher");
 				SceneManager.LoadScene("Launcher");
+=======
+				SceneManager.LoadScene("PunBasics-Launcher");
+>>>>>>> 78e8db30eaf0cddb9bd88a0879750ab762656bb6
 
 				return;
 			}
@@ -135,8 +139,12 @@ namespace Photon.Pun.Demo.PunBasics
 		/// </summary>
 		public override void OnLeftRoom()
 		{
+<<<<<<< HEAD
 			//SceneManager.LoadScene("PunBasics-Launcher");
 			SceneManager.LoadScene("Launcher");
+=======
+			SceneManager.LoadScene("PunBasics-Launcher");
+>>>>>>> 78e8db30eaf0cddb9bd88a0879750ab762656bb6
 		}
 
 		#endregion
@@ -157,7 +165,11 @@ namespace Photon.Pun.Demo.PunBasics
 
 		#region Private Methods
 
+<<<<<<< HEAD
 		public void LoadArena()
+=======
+		void LoadArena()
+>>>>>>> 78e8db30eaf0cddb9bd88a0879750ab762656bb6
 		{
 			if ( ! PhotonNetwork.IsMasterClient )
 			{
@@ -166,8 +178,12 @@ namespace Photon.Pun.Demo.PunBasics
 
 			Debug.LogFormat( "PhotonNetwork : Loading Level : {0}", PhotonNetwork.CurrentRoom.PlayerCount );
 
+<<<<<<< HEAD
 			//PhotonNetwork.LoadLevel("PunBasics-Room for "+PhotonNetwork.CurrentRoom.PlayerCount);
 			PhotonNetwork.LoadLevel("GameScene");
+=======
+			PhotonNetwork.LoadLevel("PunBasics-Room for "+PhotonNetwork.CurrentRoom.PlayerCount);
+>>>>>>> 78e8db30eaf0cddb9bd88a0879750ab762656bb6
 		}
 
 		#endregion

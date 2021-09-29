@@ -215,12 +215,20 @@ namespace Photon.Pun.Demo.PunBasics
 			// #Critical: We only load if we are the first player, else we rely on  PhotonNetwork.AutomaticallySyncScene to sync our instance scene.
 			if (PhotonNetwork.CurrentRoom.PlayerCount == 1)
 			{
+<<<<<<< HEAD
 				Debug.Log("We load the 'GameScene' ");
 
 				// #Critical
 				// Load the Room Level. 
 				//PhotonNetwork.LoadLevel("PunBasics-Room for 1");
 				PhotonNetwork.LoadLevel("Lobby");
+=======
+				Debug.Log("We load the 'Room for 1' ");
+
+				// #Critical
+				// Load the Room Level. 
+				PhotonNetwork.LoadLevel("PunBasics-Room for 1");
+>>>>>>> 78e8db30eaf0cddb9bd88a0879750ab762656bb6
 
 			}
 		}

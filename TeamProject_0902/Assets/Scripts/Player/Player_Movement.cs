@@ -1,47 +1,49 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.AI;
 [RequireComponent(typeof(Animator))]
+[RequireComponent(typeof(NavMeshAgent))]
 public class Player_Movement : MonoBehaviour
 {
-    protected Animator avatar;
-    float lastAttackTime, lastSkillTime, lastDashTime;
-    public bool attacking = false;
-    public bool dashing = false;
-    void Start()
-    {
-        avatar = GetComponent<Animator>();
-    }
+    public NavMeshAgent agent;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public float rotateSpeedMovement = 0.1f;
+    float rotateVelocity;
 
-    public void OnAttackDown()
+    private void Start()
     {
-        attacking = true;
-        avatar.SetBool("Combo", true);
-        StartCoroutine(StartAttack());
+        agent = this.GetComponent<NavMeshAgent>();
     }
-    public void OnAttackUp()
+    private void Update()
     {
-        avatar.SetBool("Combo", false);
-        attacking = false;
-    }
-
-    IEnumerator StartAttack()
-    {
-        if (Time.time - lastAttackTime > 1f) 
+        if (Input.GetMouseButtonDown(1))
         {
-            lastAttackTime = Time.time;
-            while(attacking)
+            RaycastHit hit;
+
+            //Checking if the raycast shot hits something that uses the navmesh system.
+            if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit, Mathf.Infinity))
             {
-                avatar.SetTrigger("AttackStart");
-                yield return new WaitForSeconds(1f);
+                //if (hit.collider.tag == "Floor")
+                {
+                    //MOVEMENT
+                    agent.SetDestination(hit.point);                   
+                    //agent.stoppingDistance = 0;
+
+                    //ROTATION
+                    Quaternion rotationToLookAt = Quaternion.LookRotation(hit.point - transform.position);
+                    float rotationY = Mathf.SmoothDampAngle(transform.eulerAngles.y,
+                        rotationToLookAt.eulerAngles.y,
+                        ref rotateVelocity,
+                        rotateSpeedMovement * (Time.deltaTime * 5));
+
+                    transform.eulerAngles = new Vector3(0, rotationY, 0);
+                }
+
             }
+
+
         }
     }
+
 }
