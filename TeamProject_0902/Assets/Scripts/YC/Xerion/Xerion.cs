@@ -45,6 +45,7 @@ public class Xerion : MonoBehaviour
     private void Update()
     {
 
+
         RightMouseClicked();
 
         animator.SetFloat("Speed", agent.velocity.magnitude);
@@ -55,6 +56,10 @@ public class Xerion : MonoBehaviour
             agent.transform.rotation = Quaternion.AngleAxis(skillDir, Vector3.up);
 
         }
+
+
+        if (agent.velocity.magnitude < 0.1f) { ycManager.Instance.isFree = true; } //비전투모드
+        else { ycManager.Instance.isFree = false;} //전투모드
 
     }
 
@@ -88,21 +93,10 @@ public class Xerion : MonoBehaviour
     {
         if (hit_.collider.tag == "Floor")
         {
-            //Play Animation
-            // animator.SetTrigger("Walk");
-
 
             //Move
             agent.SetDestination(PlayerDest);
             agent.stoppingDistance = 0;
-
-            //Rotation
-            //Quaternion rotationToLookAt = Quaternion.LookRotation(PlayerDest - transform.position);
-            //float rotationY = Mathf.SmoothDampAngle(transform.eulerAngles.y,
-            //    rotationToLookAt.eulerAngles.y,
-            //    ref rotateVelocity,
-            //    rotateSpeedMovement * (Time.deltaTime * 5));
-            //transform.eulerAngles = new Vector3(0, rotationY, 0);
 
             //LinePath
             if (path != null && path.Length > 1)

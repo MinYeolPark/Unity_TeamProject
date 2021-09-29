@@ -13,7 +13,9 @@ public class ycManager : MonoBehaviour
     /// 플레이어 방향좌표
     public float PlayerDirection;
     public Vector3 PlayerTargetPos; //플레이어 타겟좌표
-    /// </summary>
+    /// 플레이어 전투여부
+    public bool isFree;
+
 
 
 

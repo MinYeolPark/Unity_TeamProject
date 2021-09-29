@@ -37,6 +37,9 @@ public class Xerion_Shooting_Skill : MonoBehaviour
     [SerializeField] private GameObject Drone;
     [SerializeField] private Transform Drone_grenade;
     [SerializeField] private Transform Drone_grenade_self;
+    [SerializeField] private Camera mainCamera;
+    public float R_camFOV = 20.0f;
+
     private bool DroneReload;
     private int DroneShot = 4;
     public float R_time = 7.0f;
@@ -71,6 +74,8 @@ public class Xerion_Shooting_Skill : MonoBehaviour
         Drone_Range.SetActive(false);
 
         animator = GetComponent<Animator>();
+
+
     }
 
 
@@ -179,6 +184,7 @@ Quaternion.identity); //유탄발사 and transform 저장
         {
             if (Input.GetKeyDown(KeyCode.R))
             {
+
                 satellite_range.SetActive(true);
                 Drone_Range.SetActive(true);
                 if (animator.GetBool("R_Xerion") == false)
@@ -208,7 +214,7 @@ Quaternion.identity); //유탄발사 and transform 저장
         {
             Drone.SetActive(true);
             satellite_range.transform.position = new Vector3(GetMousePos().x, 0.28f, GetMousePos().z);
-
+            mainCamera.fieldOfView += R_camFOV;
             if (DroneShot >= 1)
             {
                 if (Input.GetKeyDown(KeyCode.R))
@@ -246,6 +252,7 @@ Quaternion.identity); //유탄발사 and transform 저장
                 Drone_Range.SetActive(false);
                 Drone.SetActive(false);
                 DroneShot = 4;
+                mainCamera.fieldOfView -= R_camFOV;
                 R_active = false; //시간초과시 or 스킬모두 사용시 r스킬 종료
             }
         }

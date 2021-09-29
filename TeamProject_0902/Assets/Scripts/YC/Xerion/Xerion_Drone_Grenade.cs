@@ -20,12 +20,15 @@ public class Xerion_Drone_Grenade : MonoBehaviour
     private Rigidbody myRigidbody;
     Vector3 target;
     Vector3 origin;
+    private float gravity = 10f;
+    public float height = 10f;
 
     private void Start()
     {
 
         Destroy(gameObject, 3.0f);
         myRigidbody = GetComponent<Rigidbody>();
+        myRigidbody.useGravity = false;
     }
     public void Setup(Vector3 ShootDir, Vector3 Dest)
     {
@@ -35,23 +38,29 @@ public class Xerion_Drone_Grenade : MonoBehaviour
 
     public void SetupVelocity(Vector3 ShootDir, Vector3 Dest)
     {
+    
         //Define the distance
         Vector3 distance = Dest - ShootDir;
         Vector3 distanceXZ = distance;
- 
+       
+        distanceXZ.y = 0;
 
-        //create float distance
+            //create float distance
         float Sy = distance.y;
         float Sxz = distanceXZ.magnitude;
+
+
         float Vxz = Sxz / time;
-        float Vy0 = Sy / time + 0.5f *Mathf.Abs(Physics.gravity.y) * time;
+        float Vy0 = Sy / time + 0.5f * gravity * time;
+    
+       float Vy = Vy0 * time - 0.5f * gravity * time * time;
 
-        float Vy = origin.y + Vy0 * time + 0.5f * Physics.gravity.y * time * time;
-
-        Debug.Log("Sy/time " +  Sy / time);
+        // Debug.Log("Sy/time " +  Sy / time);
         grenadeDir = distanceXZ.normalized;
         grenadeDir *= Vxz;
+
         grenadeDir.y = Vy;
+
     }
 
 
@@ -60,12 +69,18 @@ public class Xerion_Drone_Grenade : MonoBehaviour
         if (Speed == 0)
             return;
 
-        SetupVelocity(transform.position, target);
-
+        if ((transform.position - target).magnitude > (origin - target).magnitude*2/3)
+        {
+            target.y = height;
+        }
+        else
+            target.y = 0;
+            SetupVelocity(transform.position, target);
+        
        
         transform.rotation = Quaternion.LookRotation(grenadeDir);
         myRigidbody.velocity = grenadeDir;
-        Debug.Log("Direction" + grenadeDir);
+        Debug.Log("Direction Y : " + grenadeDir.y);
        
     }
 
