@@ -10,6 +10,7 @@ public class DelayActive : MonoBehaviour
 
     private void Start()
     {
+        Destroy(gameObject, m_delayTime);
         m_time = Time.time;
     }
 

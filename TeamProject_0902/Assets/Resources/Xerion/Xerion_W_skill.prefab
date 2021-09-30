@@ -4978,7 +4978,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_activeObj:
   - {fileID: 5740737585317446358}
-  m_delayTime: 1.75
+  m_delayTime: 0.5
 --- !u!1 &2759093234949438018
 GameObject:
   m_ObjectHideFlags: 0

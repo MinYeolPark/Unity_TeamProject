@@ -9,7 +9,7 @@ public class BreakPrefabConnection : MonoBehaviour
 	void Start()
 	{
 		#if UNITY_EDITOR
-		PrefabUtility.DisconnectPrefabInstance(gameObject);
+		PrefabUtility.GetPropertyModifications(gameObject);
 		#endif
 		DestroyImmediate(this); // Remove this script
 	}
